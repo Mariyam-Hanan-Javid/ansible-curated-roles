@@ -1,36 +1,35 @@
-# Ansible Collections
+# Ansible Curated Roles
 
-[![GitHub Release](https://img.shields.io/github/v/release/meysam81/ansible-collections)](https://github.com/meysam81/ansible-collections/releases/latest)
-[![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://developer.mend.io/github/meysam81/ansible-collections)
-[![GitHub last commit](https://img.shields.io/github/last-commit/meysam81/ansible-collections)](https://github.com/meysam81/ansible-collections/commits/main)
-[![License](https://img.shields.io/github/license/meysam81/ansible-collections)](https://github.com/meysam81/ansible-collections/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/meysam81/ansible-collections)](https://github.com/meysam81/ansible-collections/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/meysam81/ansible-collections)](https://github.com/meysam81/ansible-collections/pulls)
+[![GitHub Release](https://img.shields.io/github/v/release/rrarireggi-cyber/ansible-curated-roles)](https://github.com/rrarireggi-cyber/ansible-curated-roles/releases/latest)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://developer.mend.io/github/rrarireggi-cyber/ansible-curated-roles)
+[![GitHub last commit](https://img.shields.io/github/last-commit/rrarireggi-cyber/ansible-curated-roles)](https://github.com/rrarireggi-cyber/ansible-curated-roles/commits/main)
+[![License](https://img.shields.io/github/license/rrarireggi-cyber/ansible-curated-roles)](https://github.com/rrarireggi-cyber/ansible-curated-roles/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/rrarireggi-cyber/ansible-curated-roles)](https://github.com/rrarireggi-cyber/ansible-curated-roles/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/rrarireggi-cyber/ansible-curated-roles)](https://github.com/rrarireggi-cyber/ansible-curated-roles/pulls)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Ansible Collections](#ansible-collections)
+- [Ansible Curated Roles](#ansible-curated-roles)
   - [Usage](#usage)
   - [Release Instructions](#release-instructions)
   - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-A collection of often personally used Ansible roles and playbooks.
+A curated collection of Ansible roles and playbooks maintained by **rrarireggi-cyber**.
 
-These tend to be useful for my own use case and projects but feel free to open
-a PR or an issue in case you want anything specific added.
+These roles are designed for real-world automation use cases and reusable
+infrastructure workflows. Contributions and suggestions are welcome.
 
 ## Usage
 
-To use this collection, you can add it as a dependency in your `requirements.yml`
-file:
+To use this collection, add it as a dependency in your `requirements.yml` file:
 
 ```yaml
 collections:
-  - name: meysam81.general
-    # latest version: https://github.com/meysam81/ansible-collections/releases
+  - name: rrarireggi_cyber.general
+    # latest version: https://github.com/rrarireggi-cyber/ansible-curated-roles/releases
     version: x.x.x
 ```
 
